@@ -12,13 +12,6 @@ export default function SearchInput() {
   );
 }
 const styles = StyleSheet.create({
-  image: {
-    width: 14,
-    height: 14,
-    paddingTop: 12,
-    marginRight: 10.25,
-    marginLeft: 16,
-  },
   view: {
     flexDirection: 'row',
     height: 41,
