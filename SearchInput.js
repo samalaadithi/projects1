@@ -1,15 +1,12 @@
 import {View, TextInput, StyleSheet, Image} from 'react-native';
 import React from 'react';
+import Icons from 'react-native-vector-icons/AntDesign';
 export default function SearchInput() {
   return (
-    <View style={styles.view}>
-      {/* <Feather name="search" style={{fontSize: 20}} /> */}
-      <Image
-        source={{
-          uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyi_CVTmoL1ITHFxQkfLwvj93hcsgA1Olkhg&usqp=CAU',
-        }}
-        style={styles.image}
-      />
+     <View style={styles.view}>
+      <View style={{marginRight: 5.25, marginLeft: 17.75}}>
+        <Icons name="search1" size={18} color="rgba(50, 59, 80, 0.7)" />
+      </View>
       <TextInput placeholder="search your funds" />
     </View>
   );
