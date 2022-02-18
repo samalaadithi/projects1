@@ -25,14 +25,11 @@ const styles = StyleSheet.create({
   view: {
     flexDirection: 'row',
     height: 41,
-    width: 328,
     alignItems: 'center',
     backgroundColor: '#FFFFFF',
     borderWidth: 0.5,
     borderColor: '#CCCCCC',
-    borderStyle: 'solid',
     borderRadius: 5,
-    marginBottom: 15,
     elevation: 2,
   },
 });
